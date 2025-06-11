@@ -14,16 +14,16 @@
 #canvas {
   display: flex;
   flex-direction: column;
-  padding: 4px;
+  padding: 10px;
 }
 
-#row {
+.row {
   display: flex;
 }
 
-#square {
-  width: 10px;
-  height: 10px;
+.square {
+  width: 20px;
+  height: 20px;
   background-color: white;
   border: .5px solid grey;
 }
