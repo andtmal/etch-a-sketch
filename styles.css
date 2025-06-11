@@ -10,3 +10,20 @@
 #reset-button {
   margin-right: 20px;
 }
+
+#canvas {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+#row {
+  display: flex;
+}
+
+#square {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: .5px solid grey;
+}
