@@ -1,0 +1,12 @@
+#input-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#create-grid-section {
+  padding-right: 5px;
+}
+
+#reset-button {
+  margin-right: 20px;
+}
