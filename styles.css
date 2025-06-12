@@ -12,6 +12,8 @@
 }
 
 #canvas {
+  width: 600px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -19,11 +21,12 @@
 
 .row {
   display: flex;
+  flex: 1;
 }
 
 .square {
-  width: 20px;
-  height: 20px;
+  flex: 1;
+  aspect-ratio: 1/1;
   background-color: white;
   border: .5px solid grey;
 }
