@@ -27,6 +27,5 @@
 .square {
   flex: 1;
   aspect-ratio: 1/1;
-  background-color: white;
   border: .5px solid grey;
 }

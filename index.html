@@ -11,18 +11,18 @@
     <h3>Etch-a-Sketch</h3>
     <p>Create your grid, pick a color, and then use your mouse to draw--no need to click, just hover over to change color.</p>
     <div id="input-section">
-      <field id="create-grid-section">
+      <div id="create-grid-section">
         <input id="grid-input" type="number" placeholder="Grid size (e.g. 64)">
         <button id="create-grid-button">Create grid!</button>
-      </field>
+      </div>
       <button id="reset-button">Reset grid</button>
       <div id="color-picker-section">
         Pick a color:
         <select name="colors" id="color-picker">
-        <option value="black">Black</option>
-        <option value="blue">Blue</option>
-        <option value="red">Red</option>
-        <option value="yellow">Yellow</option>
+          <option value="#000000">Black</option>
+          <option value="#0000FF">Blue</option>
+          <option value="#FF0000">Red</option>
+          <option value="#FFFF00">Yellow</option>
         </select>
       </div>
     </div>
